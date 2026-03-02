@@ -1,0 +1,26 @@
+{
+  "name": "pimux",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "src/main.ts",
+  "bin": {
+    "pimux": "src/main.ts"
+  },
+  "scripts": {
+    "dev": "bun run src/main.ts",
+    "build": "bun build --compile src/main.ts --outfile pimux",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@effect/cli": "^0.66.0",
+    "@effect/platform": "^0.87.0",
+    "@effect/platform-bun": "^0.72.0",
+    "@mariozechner/pi-tui": "^0.55.3",
+    "effect": "^3.16.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.8.0"
+  }
+}

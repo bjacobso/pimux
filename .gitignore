@@ -1,0 +1,6 @@
+node_modules/
+dist/
+pimux
+*.tsbuildinfo
+.pimux/tasks.json
+.pimux/worktrees/
